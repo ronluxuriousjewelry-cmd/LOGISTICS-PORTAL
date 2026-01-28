@@ -174,23 +174,23 @@
 
 <header>
     <div class="logo">D-LOG <span>EXPRESS</span></div>
-    <div class="badge">Pending Payment Confirmation</div>
+    <div class="badge">Awaiting Payment Clearance</div>
 </header>
 
 <div class="main-grid">
 
     <div class="left-col">
         <div class="section-card">
-            <div class="card-header">Vehicle Details (Pre-Pickup)</div>
+            <div class="card-header">Vehicle Details (On-Site – Pre-Dispatch)</div>
             <div class="card-content">
 
                 <div class="image-container">
                     <img src="lexus.jpg" alt="Lexus RX 350 SUV">
-                    <div class="inspection-stamp">Customer Submitted Image</div>
+                    <div class="inspection-stamp">On-Site Verification</div>
                 </div>
 
                 <div style="margin-top:20px;">
-                    <div class="row"><span class="label">Shipment Reference</span><span class="val">#223344</span></div>
+                    <div class="row"><span class="label">Tracking Number</span><span class="val">223344</span></div>
                     <div class="row"><span class="label">Vehicle</span><span class="val">Lexus RX 350 SUV (2013)</span></div>
                     <div class="row"><span class="label">Sender</span><span class="val">Ava Amherst</span></div>
                     <div class="row"><span class="label">Receiver</span><span class="val">Raymond Briggs</span></div>
@@ -210,34 +210,34 @@
                 <ul class="timeline">
                     <li class="step current">
                         <span class="step-date">JAN 26, 2026</span>
-                        <span class="step-info">Shipment Created</span>
+                        <span class="step-info">Vehicle Loading in Progress</span>
                         <span class="step-desc">
-                            Shipment request successfully submitted by customer.
-                            Payment verification is pending. Pickup has not yet been scheduled.
+                            Delivery team is on-site and preparing the vehicle for dispatch.
+                            Movement is temporarily on hold pending payment clearance.
+                        </span>
+                    </li>
+
+                    <li class="step">
+                        <span class="step-date">Pending</span>
+                        <span class="step-info">Payment Clearance</span>
+                        <span class="step-desc">
+                            Shipment will be authorized for departure immediately after payment confirmation.
                         </span>
                     </li>
 
                     <li class="step">
                         <span class="step-date">Upcoming</span>
-                        <span class="step-info">Payment Confirmation</span>
+                        <span class="step-info">Dispatch & Transit</span>
                         <span class="step-desc">
-                            Upon confirmation of payment, pickup instructions will be issued to the logistics team.
-                        </span>
-                    </li>
-
-                    <li class="step">
-                        <span class="step-date">Upcoming</span>
-                        <span class="step-info">Vehicle Pickup & Inspection</span>
-                        <span class="step-desc">
-                            Vehicle will be collected from the sender’s location and undergo physical inspection.
+                            Vehicle will depart the pickup location and tracking will update automatically.
                         </span>
                     </li>
                 </ul>
 
-                <div style="margin-top:20px; background:#fffaf2; padding:15px; border:1px solid #f1d9a5; border-radius:4px; font-size:12px;">
-                    <strong>Important Notice:</strong><br>
-                    This shipment is currently inactive pending payment confirmation.
-                    No pickup, transportation, or delivery actions have commenced.
+                <div style="margin-top:20px; background:#fff3f3; padding:15px; border:1px solid #e5bcbc; border-radius:4px; font-size:12px;">
+                    <strong>Operational Hold Notice:</strong><br>
+                    The vehicle is currently staged for dispatch.
+                    Transportation will not commence until payment has been fully cleared.
                 </div>
 
             </div>
@@ -248,10 +248,10 @@
 
 <div style="margin:30px auto; max-width:600px; padding:20px; border:2px dashed #ccc; border-radius:10px; text-align:center; background:#fff;">
     <h3>Need Assistance?</h3>
-    <p>Our customer care team is available to assist with payment confirmation and shipment inquiries.</p>
+    <p>Our customer care team can assist with payment clearance and dispatch authorization.</p>
 
     <button onclick="jivo_api.open();" style="background:#D40511;color:white;border:none;padding:16px 35px;font-size:15px;font-weight:bold;border-radius:5px;cursor:pointer;width:100%;">
-        💬 Contact Customer Support For Payment and Tracking
+        💬 Contact Customer Support
     </button>
 </div>
 
